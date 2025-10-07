@@ -1,0 +1,27 @@
+﻿@model IEnumerable<string>
+
+@{
+	ViewData["Title"] = "All Queue Messages";
+}
+
+<h2 class="mb-3">All Messages in Queue</h2>
+
+@if (Model != null && Model.Any())
+{
+	<ul class="list-group">
+		@foreach (var msg in Model)
+		{
+			<li class="list-group-item">@msg</li>
+		}
+	</ul>
+}
+else
+{
+	<div class="alert alert-warning">No Messages in the queue.</div>	
+}
+
+<div class="mt-3">
+	<a asp-action="Enqueue" class="btn btn-primary">Send New Message</a>
+	<a asp-action="Dequeue" class="btn btn-success">Dequeue Message</a>
+	<a asp-action="Peek" class="btn btn-info">Peek Next</a>
+</div>

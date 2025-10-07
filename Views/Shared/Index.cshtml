@@ -1,0 +1,18 @@
+﻿@Model IEnumerable<string>
+
+	@{
+		ViewData["Title"] = "File Share";
+	}
+
+	<h2>File Share</h2>
+
+	<p>
+		<a class="btn btn-primary" asp-action="Upload">Upload File</a>
+	</p>
+
+	<ul class="list-group">
+		@foreach (var file in Model ?? Enumerable.Empty<string>())
+		{
+			<li class="list-group-item">@file</li>
+		}
+	</ul>

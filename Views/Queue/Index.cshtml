@@ -1,0 +1,18 @@
+﻿@model IEnumerable<string>
+
+@{
+	ViewData["Title"] = "Orders Queue";
+}
+
+<h2>Orders Queue</h2>
+
+<p>
+	<a class="btn btn-primary" asp-action="AddMessage">Add Message</a>
+</p>
+
+<ul class="list-group">
+	@foreach (var msg in Model ?? Enumerable.Empty<string>())
+	{
+		<li class="list-group-item">@msg</li>
+	}
+</ul>

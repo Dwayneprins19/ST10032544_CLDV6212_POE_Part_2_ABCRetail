@@ -1,0 +1,20 @@
+﻿@{
+	ViewData["Title"] = "Upload File to Azure File Share";
+}
+
+<h2>Upload File</h2>
+
+<form asp-action="Upload" method="post" enctype="multipart/form-data">
+	<input type="file" name="file" />
+	<button type="submit">Upload</button>
+</form>
+
+@if (ViewBag.Message != null)
+{
+	<p>@ViewBag.Message</p>
+}
+
+@if (TempData["Message"] != null)
+{
+	<p>@TempData["Message"]</p>
+}

@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "EHMW+sCu1U6cde+A8nqogvDzt/woIeZbkfuU6WFaQR9L8KELL4Qyl5JNUWO/WR5XJP/D/0CdELjIi+7Ua3u7tA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dwayn\\source\\repos\\ABCRetail\\ABCRetail.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dwayn\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
+    "C:\\Users\\Dwayn\\.nuget\\packages\\azure.data.tables\\12.11.0\\azure.data.tables.12.11.0.nupkg.sha512",
+    "C:\\Users\\Dwayn\\.nuget\\packages\\azure.identity\\1.15.0\\azure.identity.1.15.0.nupkg.sha512",
+    "C:\\Users\\Dwayn\\.nuget\\packages\\azure.storage.blobs\\12.25.0\\azure.storage.blobs.12.25.0.nupkg.sha512",
+    "C:\\Users\\Dwayn\\.nuget\\packages\\azure.storage.common\\12.24.0\\azure.storage.common.12.24.0.nupkg.sha512",
+    "C:\\Users\\Dwayn\\.nuget\\packages\\azure.storage.files.shares\\12.23.0\\azure.storage.files.shares.12.23.0.nupkg.sha512",
+    "C:\\Users\\Dwayn\\.nuget\\packages\\azure.storage.queues\\12.23.0\\azure.storage.queues.12.23.0.nupkg.sha512",
+    "C:\\Users\\Dwayn\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+    "C:\\Users\\Dwayn\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\Dwayn\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.3\\microsoft.extensions.logging.abstractions.8.0.3.nupkg.sha512",
+    "C:\\Users\\Dwayn\\.nuget\\packages\\microsoft.identity.client\\4.73.1\\microsoft.identity.client.4.73.1.nupkg.sha512",
+    "C:\\Users\\Dwayn\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\4.73.1\\microsoft.identity.client.extensions.msal.4.73.1.nupkg.sha512",
+    "C:\\Users\\Dwayn\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.35.0\\microsoft.identitymodel.abstractions.6.35.0.nupkg.sha512",
+    "C:\\Users\\Dwayn\\.nuget\\packages\\system.clientmodel\\1.5.1\\system.clientmodel.1.5.1.nupkg.sha512",
+    "C:\\Users\\Dwayn\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+    "C:\\Users\\Dwayn\\.nuget\\packages\\system.io.hashing\\8.0.0\\system.io.hashing.8.0.0.nupkg.sha512",
+    "C:\\Users\\Dwayn\\.nuget\\packages\\system.memory.data\\8.0.1\\system.memory.data.8.0.1.nupkg.sha512",
+    "C:\\Users\\Dwayn\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Dwayn\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

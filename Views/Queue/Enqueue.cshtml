@@ -1,0 +1,28 @@
+﻿@{
+	ViewData["Title"] = "Send Order Message";
+}
+
+<h2 class="mb-3">Send Order Message</h2>
+
+<form asp-action="Enqueue" method="post" class="form-inline">
+	<div class="form-group mb-2">
+		<label for="message" class="sr-only">Message</label>
+		<input type="text" id="message" name="message" class="form-control" placeholder="Enter order message" />
+	</div>
+	<button type="submit" class="btn btn-primary mb-2 ml-2">Send</button>
+</form>
+
+@if (TempData["Success"] != null)
+{
+	<div class="alert alert-success mt-2">@TempData["Success"]</div>
+}
+@if (TempData["Error"] != null)
+{
+	<div class="alert alert-danger mt-2">@TempData["Error"]</div>
+}
+
+<div class="mt-3">
+	<a asp-action="Dequeue" class="btn btn-secondary">Check Messages</a>
+	<a asp-action="Peek" class="btn btn-info">Peek Message</a>
+	<a asp-action="All" class="btn btn-outline-dark">View All</a>
+</div>
